@@ -1,0 +1,45 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling the header */
+  header {
+    background-color: #f0f0f0; /* Change the background color as needed */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Styling the image container */
+  .image-container {
+     text-align: start;
+     margin-bottom: 0;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Styling the navigation bar */
+  .navbar ul {
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: end;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #333; /* Change the color as needed */
+  }
+  
+  /* Styling the heading and paragraph */
+  h1, h2, p {
+    margin-bottom: 20px;
+  }
